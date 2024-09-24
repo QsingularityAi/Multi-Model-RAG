@@ -57,8 +57,3 @@ Simply upload your PDF and start asking questions. The chatbot is here to assist
 
 ---
 
-*Feel free to customize this welcome screen and features to best fit your project's needs! If you have any more questions or need further assistance, we're here to help. 😊*
-
----
-
-*To modify this welcome screen, edit the `chainlit.md` file at the root of your project. If you prefer not to have a welcome screen, just leave this file empty.*
