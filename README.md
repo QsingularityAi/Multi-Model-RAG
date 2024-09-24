@@ -2,6 +2,10 @@
 
 Multi-Model Retrieval Augmented Generation (RAG) for PDF data processing and analysis.
 
+<img src="./images/Output-1.png" alt="Output 1" width="500"/>
+<img src="./images/Output-2.png" alt="Output 2" width="500"/>
+<img src="./images/Output-3.png" alt="Output 3" width="500"/>
+<img src="./images/Output-4.png" alt="Output 4" width="500"/>
 ## Overview
 
 This application processes PDF documents containing text, images, and tables to perform multi-modal retrieval and argument generation. It utilizes unstructured.io for PDF data extraction, CromaDB for vector data storage, OpenAI's embedding model for creating embeddings, and Chainlit for the chat user interface.
