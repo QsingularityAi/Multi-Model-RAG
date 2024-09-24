@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  my_app:
+    build: .
+    ports:
+      - "7860:7860"
+    environment:
+      - HOME=/home/user
+      - PATH=/home/user/.local/bin:$PATH
+    volumes:
+      - .:/home/user/app
+    command: ["chainlit", "run", "app2.py", "--port", "7860"]
